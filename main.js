@@ -5,8 +5,14 @@ let containerItems = document.getElementById("items");
 for (let i = 0; i < images.length; i++) {
     const img = `<div class="item"><img src="${images[i]}"></div>`;
     containerItems.innerHTML += img; 
+    
 }
 
-let active = 0;
-active = active + 1;
 
+/* let btnAddImage = document.querySelectorAll(".fa-solid");
+btnAddImage.onclick = function() {
+var img = document.createElement("img");
+img.src = "./img/02.jpg";
+document.innerHTML.appendChild(img);
+} */
+console.log(document.querySelectorAll(".item"));
