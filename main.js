@@ -5,7 +5,13 @@ let containerItems = document.getElementById("items");
 for (let i = 0; i < images.length; i++) {
     const img = `<div class="item"><img src="${images[i]}"></div>`;
     containerItems.innerHTML += img; 
-    
+
+    const btnGenerator = document.querySelector ("prev");
+    btnGenerator.addEventListener(`click`, function() {
+        const img = `<div class="item"><img src="${images[1]}"></div>`;
+        element.classList.add('active');
+        containerItems.innerHTML += img;
+    }
 }
 
 
