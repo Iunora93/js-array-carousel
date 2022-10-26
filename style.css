@@ -17,7 +17,7 @@
     justify-content: center;
 }
 
-.items {
+#items {
     position: relative;
     width: 700px;
     height: 300px;
@@ -38,7 +38,7 @@
     object-fit: cover;
 }
 
-.items .item {
+#items .item {
     text-align: center;
 }
 
